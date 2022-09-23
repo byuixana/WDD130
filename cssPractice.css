@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+.perks{
+    color: black;
+    background-color: rgba(174, 214, 239, 0.728);
+    padding: 1px 10px;
+}
+button{
+    margin: 5px;
+}
