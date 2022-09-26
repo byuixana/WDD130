@@ -1,0 +1,20 @@
+.red{
+    background-color: red;
+    color: blue;
+}
+.white{
+    background-color: blue;
+    color: white;
+}
+.blue{
+    background-color: blue;
+    color: red;
+}
+#changing_text{
+    background-color:aquamarine;
+    color:azure;
+}
+#guess_not{
+    background-color: aqua;
+    color:ghostwhite;
+}
