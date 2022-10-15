@@ -1,0 +1,36 @@
+body{
+    margin: 0 auto;
+    background-color: gray;
+}
+header{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 412px){
+    .images{
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .icon img{
+       width: 50%;
+
+    }}
+header img{
+    width: 100%;
+}
+.icon img{
+    width: 75%;
+    border-radius: 50%;
+    border: solid 10px darkgrey; 
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+}
+.images{
+    display: inline-flex;
+    margin-top: 10px;
+    margin: 0 auto;
+}

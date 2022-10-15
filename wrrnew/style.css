@@ -3,48 +3,89 @@
 #BBDEF0
 #007490
  */
+ 
+ #hero-img{
+    width: 100%;
+ }
 body{
     background-color: #006494;
-    width: 100%;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 header{
     background-color: #EFA00B;
+    box-sizing: border-box;
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
 }
 .home-title{
     color: #007490;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 10px;
 }
 .logo{
  width: 80px;
+ padding-top: 5px;
+}
+#logo-link{
+    padding-top: 5px;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 h4{
     color: #007490;
+    
 }
 .book, .join{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #BBDEF0;
     color: #007490;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #86cdf1;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+    border: 10px solid #007490;
+}
+.card-img{
+    border: solid black 10px;
+    box-sizing: border-box;
 }
 #background{
     background-color: #EFA00B;
 }
 .msg{
     background-color: #EFA00B;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: #007490;
+    padding: 10px;
 }
 .msg p{
     color: #007490;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer{
     background-color: #EFA00B;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p{
     font-size: 1.2em;
@@ -59,6 +100,9 @@ footer a{
 footer a:hover{
     color: #006494;
 }
+footer .social img{
+    padding-top: 15px;
+}
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -67,22 +111,28 @@ nav a{
     text-align: center;
     color: #007490;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #BBDEF0;
     color: #007490;
 }
 #hero-msg{
-    text-align: center;
+    text-align: center; 
 }
 #hero-img img{
     width: 100%;
+    
 }
 .button-box{
     text-align: center;
+    
 }
 main section{
     text-align: center;
+}
+main section img{
+    box-sizing: border-box;
 }
 #background{
     height: 725px;;

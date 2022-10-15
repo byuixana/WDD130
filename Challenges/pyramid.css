@@ -1,0 +1,50 @@
+.pyramid{
+    margin: 0 auto;
+    margin-top: 0;
+    padding: 0 auto;
+    width: 100%;
+    height: 50px; 
+}
+.topBox{
+    margin: 0 auto;
+    margin-top: 0;
+    padding: 0 auto;
+    padding-top: 15px;
+    background-color: red;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.middleBox{
+    margin: 0 auto;
+    padding: 0 auto;
+    padding-top: 15px;
+    background-color: blue;
+    width: 50%;
+    height: 100%; 
+    text-align: center;
+    box-sizing: border-box;
+}
+.bottomBox{
+    margin: 0 auto;
+    padding: 0 auto;
+    padding-top: 15px;
+    background-color: green;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.purpleBox{
+    width: 50px;
+    height: 75px;
+    background-color: purple;
+    padding: 0 auto;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: inline-block;
+}
+#purpleBox2{
+    margin-right: 100px;
+}
