@@ -76,7 +76,7 @@ h4{
 .mountains{
     grid-column: 1/11;
     grid-row: 5/8;
-    box-shadow: 5px 5px 10px blackl
+    box-shadow: 5px 5px 10px black;
 }
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
