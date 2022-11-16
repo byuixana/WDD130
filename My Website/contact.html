@@ -7,6 +7,81 @@
     <title>ContactForm</title>
 </head>
 <body>
-    
+    <div class="container">
+        <header>
+            <img src="logo.jpg" alt="Logo">
+            <nav>
+                <a href="home.html">Home</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact Form</a>
+            </nav>
+        </header>
+        <div id="feedback"></div>
+            <h1>Website Request Form</h1>
+            <img src="./images/lightbulb.jpg" alt="Web Image" style = "height: 500px; width: 500px;">
+            <h3>Holding the World Wide Web in the Palm of Your Hand</h3>
+            <p>
+            If you like what you've seen so far, go ahead an fill out this form so I can start helping you make the best website possible! If you have any questions I will do my best to answer them.
+            You should recieve an email within 24 hours from me asking what time you would like to meet up over Zoom so I can get the best idea for what you want for you website. Building a website usually takes about fifteen business days depending on the requirements and what you're website speifically needs.
+            If you don't need a website but you are still looking for help with a different kind of project, don't worry, I'm not a one-trick pony! I can do consultations and other applications as well. Just make sure to include what you have in mind in the Questions/Concerns box. I'm excited to bring your ideas to life!
+            </p>
+            <img src="./images/planning.jpg" alt="Planning Process" style = "height: 500px; width: 500px;">
+            <form action="">
+                <ul>
+                    <li>
+                        <label for="">Name:</label>
+                        <input type="text" id="name">
+                    </li>
+                    <li>
+                        <label for="">Company Name:</label>
+                        <input type="text" id="companyName">
+                    </li>
+                    <li>
+                        <label for="">Email:</label>
+                        <input type="text" id="email">
+                    </li>
+                    <li>
+                        <label for="">Phone Number:</label>
+                        <input type="number" id="phoneNumber">
+                    </li>
+                    <li>
+                        <label for="">Website Purpose</label>
+                        <input type="text" id="website">
+                    </li>
+                    <li>
+                        <label for="">Other Questions/Concerns:</label>
+                        <textarea name="msg"></textarea>
+                    </li>
+                    <button type="submit" id="submit">Submit Form</button>
+                </ul>
+            </form>
+        <footer>
+            <p>Alexandra Green &copy; 2022</p>
+            <p><a href="personalsiteplan.html">Site Plan</a></p>
+            <p><a href="contactus.html">Contact Us</a></p>
+            <div class="social">
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="./Images/facebook.png" alt="fb icon">
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="./Images/twitter.png" alt="twitter icon">
+                    </a>
+                    <a href="https://instagram.com" target="_blank">
+                        <img src="./Images/instagram.png" alt="instagram icon">
+                    </a>
+            </div>
+        </footer>
+    </div>
+   </div>
+   <script>
+    const feedbackElement = document.getElementById('feedback');
+    const formElement = document.forms[0];
+    formElement.addEventListener('submit', function(e) {
+        e.preventDefault();
+        feedbackElement.innerHTML = 'Hello' + formElement.name.value + '! Thank you for you message. We will get back with you as soon as possible!';
+        feedbackElement.style.display = "block";
+        document.body.classList.toggle('moveDown');
+    });
+</script>
 </body>
 </html>
