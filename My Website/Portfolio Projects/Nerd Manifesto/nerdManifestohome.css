@@ -1,0 +1,246 @@
+html{
+    background-color: mintcream;
+  }
+  body{
+    font-family: garamond, georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding-top: 0;
+  }
+  body h1{
+    text-align: center;
+  }
+  body h3{
+    text-align: center;
+  }
+  .copyright{
+    text-align: center;
+  }
+  /**Header**/
+  header{
+    background-color: midnightblue;
+    background-image: url();
+    padding-top: 40px;
+    width: 960px;
+    margin: 0 auto;
+  }
+  header h1{
+    text-align: left;
+    font-size: 300%;
+    color: #FF652F;
+  }
+  
+  .headingcontainer{
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  /*Header ends here*/
+  .main-area{
+    width: 66%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+  .main-area p{
+    text-align: justify;
+  }
+  .sidebar{
+    width: 34%;
+    float: right;
+    background-color: midnightblue;
+    color: #FF652F;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    font-size: 90%;
+    font-family: timesnewroman;
+    margin-bottom: 40px;
+    
+  }
+  .updatelist a{
+    color: #FF652F;
+  }
+  .updatelist li{
+    list-style: none;
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+  }
+  .eventslist h1{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .eventslist a{
+    text-decoration: none;
+    color: black;
+  }
+  .daily::after{
+    content: "";
+    white-space: pre;
+  }
+  .daily::before{
+    visibility: hidden;
+    content: "/a";
+    white-space: pre;
+  }
+  img{
+    width: 350px;
+    height: 300px;
+  }
+  /**Row starts here**/
+  .column{
+    float: left;
+    width: 30%;
+    padding: 5px;
+  }
+  .row::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+  /**Row ends here**/
+  /**Navigation starts here**/
+  .nav1 li{
+    list-style: none;
+    float: left;
+    padding-top: 0px;
+    padding: 5px;
+  }
+  .nav1 a{
+    display: inline-block;
+    text-decoration: none;
+    color: #FF652F;
+    border: 3px solid #FF652F;
+    padding: 15px 50px;
+  }
+  .nav1 a:hover{
+    display: inline-block;
+    position: relative;
+    background-image: url();
+    background-size: cover;
+    color: mintcream;
+    transition-property: all;
+    transition-duration: 2s;
+  }
+  .nav1 ul{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  /**Navgation Ends Here**/
+  /**Rolling Text**/
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .main{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .main h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #1D3557;
+    font-size: 4rem;
+  }
+  .roller{
+    height: 4.125rem;
+    line-height: 4rem;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #Nerdy{
+    font-size: 1rem;
+    font-style: italics;
+    letter-spacing: 1rem;
+    margin-top: 0;
+  }
+  .roller #rolltext {
+    position: absolute;
+    top: 0;
+    animation: slide 5s infinite;
+  }
+  @keyframes slide{
+    0%{
+      top:0;
+    }
+    25%{
+      top: -4rem
+    }
+    50%{
+      top: -8rem;
+    }
+    72.5%{
+      top: -12.25rem;
+    }
+  }
+  @media screen and (max-width: 600px){
+    h1{
+      text-align: center;
+      text-transform: uppercase;
+      color: #F1AEEE;
+      font-size: 2.125rem;
+    }
+    .roller{
+      height: 2.6rem;
+      line-height: 2.125rem;
+    }
+    #Nerdy{
+      font-size: 1rem;
+      letter-spacing: 0.1rem;
+    }
+    .roller #rolltext{
+      animation: slide-mob 5s infinite;
+    }
+    /* @keyframes slide-mob{
+      0%{
+        top:0;
+      }
+      25%{
+        top: -2.125;
+      }
+      50%{
+        top: -4.25rem;
+      }
+      72.5{
+        top: -6.375rem;
+      }
+  } */
+}
+  /**Rolling Text Ends Here**/
+  .container{
+    display: block;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+  }
+  iframe{
+    box-sizing: border-box;
+    margin-bottom: -10px;
+    float: left;
+  }
+  .group:before,
+  .group:after {
+    content: "";
+    display: table;
+  }
+  
+  .group:after {
+    clear: both;
+  }
+  
+  .group {
+    zoom: 1;
+  }
