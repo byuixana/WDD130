@@ -10,73 +10,75 @@
 <body>
     <div class="container">
     <header>
-        <img src="logo.jpg" alt="Logo">
+        <img src="./images/Alexandra Green.png" alt="Logo" class="Logo">
         <nav>
             <a href="home.html">Home</a>
             <a href="portfolio.html">Portfolio</a>
             <a href="contact.html">Contact Form</a>
         </nav>
     </header>
-    <h1 class="HelloWorld">Hello World, I'm Alexandra!</h1>
-    <div class="aboutMe">
-        <img src="./images/self-portrait.jpg" alt="" class="self-portrait" style ="height: 500px; width: 500px">
-        <h3>About Me</h3>
-        <p>I’m a born and raised Idahoan who loves running, writing, and building anything using coding. I’ve been a web developer since 2019, and there is nothing I find more satisfying than creating a beautiful, interactive website. I’ve worked mostly in the front end realms of HTML, CSS, and Javascript, but I also have some experience in Python and SQL. Hwoever, if you need something else done just let me know, I love a challenge! If you'd like to see my experience or past projects,
-            simply scroll down or head over to my Portfolio page.
-        </p>
-    </div>
-    <div class="certificates">
-        <img src="./images/Certified.jpg" alt="">
-        <h3>Certification and Awards</h3>
-        <h3>Linkedin Learning Certifictaes</h3>
+    <main>
+        <div class="title-msg">
+            <h1 class="HelloWorld">Hello World, I'm Alexandra!</h1>
+        </div>
+        <div class="aboutMe" id="card">
+
+            <div class="image-box">
+                <img src="./images/self-portrait.jpg" alt="Image of Myself" class="self-portrait">
+            </div>
+            <div class="aboutMe-text">
+                <h2>About Me</h2>
+                <p>I’m a born and raised Idahoan who loves running, writing, and building anything using coding. I am currently studying at Brigham Young University-Idaho to earn a bachelor's degree in Software Engineering, with certificates in web development and embedded systems.
+                    I’ve been a web developer since 2019, and there is nothing I find more satisfying than creating a beautiful, interactive website. I’ve worked mostly in the front end realms of HTML, CSS, and Javascript, but I also have some experience in Python and SQL. Hwoever, if you need something else done just let me know, I love a challenge! If you'd like to see my experience or past projects,
+                    simply scroll down or head over to my Portfolio page.
+                </p>
+            </div>
+        </div>
+        <div class="certificates" id="card">
+            <div class="image-box">
+                <img src="./images/Certifications.jpg" alt="">
+            </div>
+            <div class="text">
+            <h2>Certification and Awards</h2>
+            <h3>Linkedin Learning Certifictaes</h3>
+                <ul>
+                    <li>Learning the JavaScript Language</li>
+                    <li>Learning Node.js</li>
+                    <li>Javascript for Web Designers</li>
+                    <li>SASS Essential Training</li>
+                </ul>
+            <h3>freeCodeCamp Certificates</h3>
+                <ul>
+                    <li>Responsive Web Design Certification</li>
+                    <li>JavaScript Algorithms and Data Structures Certification</li>
+                    <li>Front End Development Libraries Certification</li>
+                </ul>
+            <h3>Completed Udemy Courses</h3>
+                <ul>
+                    <li>Complete Guide in HTML, CSS, & JavaScript</li>
+                </ul>
+            <h3>Awards</h3>
             <ul>
-                <li>Learning the JavaScript Language</li>
-                <li>Learning Node.js</li>
-                <li>Javascript for Web Designers</li>
-                <li>SASS Essential Training</li>
+                <li>Business Professionals of America Web Design and Development Competition - 2nd Place - 2020</li>
+                <li>Business Professionals of America Web Design and Development Competition - 2nd Place - 2022</li>
             </ul>
-        <h3>freeCodeCamp Certificates</h3>
-            <ul>
-                <li>Responsive Web Design Certification</li>
-                <li>JavaScript Algorithms and Data Structures Certification</li>
-                <li>Front End Development Libraries Certification</li>
-            </ul>
-        <h3>Completed Udemy Courses</h3>
-            <ul>
-                <li>Complete Guide in HTML, CSS, & JavaScript</li>
-            </ul>
-        <h3>Awards</h3>
-        <ul>
-            <li>Business Professionals of America Web Design and Development Competition - 2nd Place - 2020</li>
-            <li>Business Professionals of America Web Design and Development Competition - 2nd Place - 2022</li>
-        </ul>
-    </div>
-    <div class="experience">
-        <h1>Experience</h1>
-        <div id="my-pie-chart"></div>
-        <table>
-            <tr>
-                <th>Language</th>
-                <th>Experience Level</th>
-            </tr>
-            <tr>
-                <td><div id="green_square"></div>SASS</td>
-                <td><div id="orange_square"></div>Node.js</td>
-                <td><div id="yellow_square"></div>JavaScript</td>
-                <td><div id="red_square"></div>CSS</td>
-                <td><div id="blue_square"></div>HTML</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>4</td>
-                <td>7</td>
-                <td>8</td>
-            </tr>
-        </table>
-        <p></p>
-    </div>
-    </div>
+        </div>
+        
+        </div>
+        <div class="experience" id = "card">
+            <h2>Experience</h2>
+            <!-- <div id="my-pie-chart"></div> -->
+            <div class="pie_img">
+                <img src="./images/Pie Chart.jpg" alt="">
+            </div>
+            <div class="pie_text">
+                <p>The chart to the left best illustrates my experience. I have worked on many HTML and CSS projects and have a lot of practice in gettig cretaive with the tools on hand. 
+                    I've also recently learned how to use libraries to be efficient with my time. If you're looking for more than just a place for people to be informed about your product, I can use Node.js and Javascript to do just that.
+                </p>
+            </div>  
+        </div>
+        </div>
+    </main>
     <footer>
         <a href="portfolio.html">Portfolio</a>
         <a href="contact.html">Contact Form</a>
