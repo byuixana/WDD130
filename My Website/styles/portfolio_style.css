@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap');
+body{
+    margin: 0 auto;
+    font-family: 'Lato';
+    font-size: 2em;
+    background-color: #A6979C;
+}
+#card{
+  color: #28666E;
+  
+}
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    width: 100%;
+    height: 100px;
+    background-color: #033F63;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+  
+}
+nav a{
+    padding: 35px;
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1px;
+}
+nav a:hover{
+    background-color: #28666E;
+}
+.Logo{
+    grid-column: 1/2;
+    width: 80px;
+    height: 80px;
+    grid-row: 1;
+    padding: 10px;
+  
+}
+.logo_link{
+    justify-self: center;
+    align-self: center;
+    padding: 5px;
+    margin: 5px;
+}
+footer{
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  height: 100px;
+  background-color: #033F63;
+  align-content: center;
+  justify-content: space-around;
+}
+footer a{
+  color:aliceblue;
+  text-decoration: none;
+  margin-top: 30px;
+}
+.social{
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+  }
+/* #card{
+    background-color: #CCFBFE; 
+} */
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 82%;
+    width: 75%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #033F63;
+    margin: 100px;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+    font-family: 'Fira Sans';
+    color:#28666E;
+  }
+  p{
+    font-family: 'Lato';
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
+  }
+
+ .nerdManifesto p{
+  line-height: 80px;
+ }
+ .emailLogin p{
+  line-height: 80px;
+ }
+ .article p{
+  line-height: 80px;
+ }
+
+ .nerdManifesto{
+  /* background-color: #CCFBFE; */
+  text-align: center;
+  margin-right: 50px;
+  color: #28666E;
+ }
+
+.emailLogin{
+  /* background-color: #CCFBFE; */
+  text-align: center;
+  margin-right: 50px;
+  color: #28666E;
+}
+.article{
+  /* background-color: #CCFBFE; */
+  text-align: center;
+  margin-right: 50px;
+  color: #28666E;
+}
+
+.projectImg{
+  width: 75%;
+  margin: 100px;
+
+}
+
+
