@@ -5,27 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ContactForm</title>
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/contact.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <img src="logo.jpg" alt="Logo">
+            <img src="./images/AlexandraGreen.png" alt="Logo" class = "Logo">
             <nav>
                 <a href="home.html">Home</a>
                 <a href="portfolio.html">Portfolio</a>
                 <a href="contact.html">Contact Form</a>
             </nav>
         </header>
-        <div id="feedback"></div>
-            <h1>Website Request Form</h1>
-            <img src="./images/lightbulb.jpg" alt="Web Image" style = "height: 500px; width: 500px;">
+        <h1>Website Request Form</h1>
+        <main id="p3grid">
+     
+            <img id="img1" src="./images/lightbulb.jpg" alt="Web Image" class="lightbulb">
+            <div id="text">
             <h3>Holding the World Wide Web in the Palm of Your Hand</h3>
             <p>
             If you like what you've seen so far, go ahead an fill out this form so I can start helping you make the best website possible! If you have any questions I will do my best to answer them.
             You should recieve an email within 24 hours from me asking what time you would like to meet up over Zoom so I can get the best idea for what you want for you website. Building a website usually takes about fifteen business days depending on the requirements and what you're website speifically needs.
             If you don't need a website but you are still looking for help with a different kind of project, don't worry, I'm not a one-trick pony! I can do consultations and other applications as well. Just make sure to include what you have in mind in the Questions/Concerns box. I'm excited to bring your ideas to life!
             </p>
-            <img src="./images/planning.jpg" alt="Planning Process" style = "height: 500px; width: 500px;">
+        </div>
+            <img src="./images/planning.jpg" alt="Planning Process" class="planning">
+            <div id="feedback"></div>
             <form action="">
                 <ul>
                     <li>
@@ -45,7 +51,7 @@
                         <input type="number" id="phoneNumber">
                     </li>
                     <li>
-                        <label for="">Website Purpose</label>
+                        <label for="">Website Purpose:</label>
                         <input type="text" id="website">
                     </li>
                     <li>
@@ -55,6 +61,7 @@
                     <button type="submit" id="submit">Submit Form</button>
                 </ul>
             </form>
+        </main>
         <footer>
             <p>Alexandra Green &copy; 2022</p>
             <p><a href="personalsiteplan.html">Site Plan</a></p>
@@ -62,13 +69,13 @@
             <p><a href="contactus.html">Portfolio</a></p>
             <div class="social">
                     <a href="https://facebook.com" target="_blank">
-                        <img src="./Images/facebook.png" alt="fb icon">
+                        <img src="./images/personal_facebook.png" alt="fb icon">
                     </a>
                     <a href="https://twitter.com" target="_blank">
-                        <img src="./Images/twitter.png" alt="twitter icon">
+                        <img src="./images/personal_twitter.png" alt="twitter icon">
                     </a>
                     <a href="https://instagram.com" target="_blank">
-                        <img src="./Images/instagram.png" alt="instagram icon">
+                        <img src="./images/personal_instagram.png" alt="instagram icon">
                     </a>
             </div>
         </footer>
