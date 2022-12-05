@@ -56,7 +56,7 @@ form li{
 }
 
 form{
-    margin: 0 auto;
+    margin: auto;
     margin-top: 50px;
     width: 97%;
     padding: 1em;
@@ -64,6 +64,7 @@ form{
     border-radius: 1em;
     grid-column: 1/4;
 }
+
 ul{
     list-style: none;
     padding: 0;
@@ -91,11 +92,24 @@ textarea{
     vertical-align: top;
     height: 7em;
 }
-.submit{
+
+form .submit{
     padding-left: 90px;
 }
+
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
 button{
-    margin-left: 200px;
+    width: 100px;
+    height: 50px;
+    background-color: #28666E;
+    color: #ccc;
 }
 #feedback{
     background-color: antiquewhite;

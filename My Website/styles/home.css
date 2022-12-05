@@ -91,7 +91,7 @@ nav a:hover{
     margin: 5px;
 }
 
-#card{
+.card{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color:#CCFBFE;
@@ -125,8 +125,7 @@ nav a:hover{
     margin-top: 4em;
 }
 .certificates{
-    grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column: 1/4;
     margin: 20px;
     text-align: center;
 }
@@ -155,6 +154,10 @@ nav a:hover{
     grid-column: 1/2;
     list-style: none;
 }
+.experience{
+    grid-column: 1/4;
+    margin: 20px;
+}
 .experience h2{
     text-align: center;
     grid-row: 2;
@@ -165,14 +168,17 @@ nav a:hover{
     grid-column: 1/2;
     grid-row: 2;
     margin: 10px;
-    /* max-height: 00px;
-    min-height: 200px; */
+    width: 200px;
+    height: 300px;
+    height: 100%;
+    
 }
 .pie_text{
     grid-column: 2/3;
     grid-row: 2;
-    letter-spacing: 1px;
+    height: 50%;
+    /* margin: 20px; */
     text-align: center;
-    margin-top: 8em;
+    /* margin-top: 2em; */
 }
 
